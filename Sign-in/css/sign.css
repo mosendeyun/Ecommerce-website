@@ -1,0 +1,175 @@
+#top {
+  width: 100%;
+}
+#top .top_con {
+  width: 1130px;
+  height: 98px;
+  margin: 0 auto;
+}
+#top .top_con .top_logo {
+  width: 200px;
+  height: 98px;
+  background: url('../images/bj1.png');
+}
+#banner {
+  width: 100%;
+}
+#banner .banner_con {
+  width: 1423px;
+  height: 588px;
+  margin: 0 auto;
+  position: relative;
+}
+#banner .banner_con .banner_bgt {
+  width: 1423px;
+  height: 588px;
+  background: url('../images/bj2.jpg') no-repeat top center;
+}
+#banner .banner_con .login_main {
+  width: 410px;
+  height: 524px;
+  background: #fff;
+  position: absolute;
+  top: 32px;
+  right: 146px;
+}
+#banner .banner_con .login_main .main_top {
+  width: 410px;
+  height: 82px;
+  font-size: 14px;
+}
+#banner .banner_con .login_main .main_top .main_top_nav {
+  padding: 27px 0 24px;
+  font-size: 24px;
+  text-align: center;
+}
+#banner .banner_con .login_main .main_top .main_top_nav a:hover {
+  color: #f56600;
+}
+#banner .banner_con .login_main .main_top .main_top_nav a:first-of-type {
+  color: #f56600;
+}
+#banner .banner_con .login_main .main_top .main_top_nav span {
+  width: 1px;
+  height: 24px;
+  margin: 0 35px 0 42px;
+  border: 1px solid #e0e0e0;
+}
+#banner .banner_con .login_main .main_tab {
+  width: 410px;
+  height: 226px;
+  text-align: center;
+}
+#banner .banner_con .login_main .main_tab input {
+  width: 348px;
+  height: 50px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 14px;
+  cursor: text;
+}
+#banner .banner_con .login_main .main_tab .sub {
+  background: #f56600;
+  width: 348px;
+  height: 50px;
+  cursor: pointer;
+  border: 0;
+}
+#banner .banner_con .login_main .main_tip {
+  width: 348px;
+  height: 19px;
+  font-size: 14px;
+  margin-top: -5px;
+  margin-left: 31px;
+}
+#banner .banner_con .login_main .main_tip .tip_left {
+  float: left;
+}
+#banner .banner_con .login_main .main_tip .tip_left a {
+  color: #f56600;
+}
+#banner .banner_con .login_main .main_tip .tip_right {
+  float: right;
+}
+#banner .banner_con .login_main .main_tip .tip_right span:nth-child(2) {
+  padding-left: 5px;
+  color: #999;
+  text-align: center;
+}
+#banner .banner_con .login_main .main_tip .tip_right a {
+  color: #999;
+}
+#banner .banner_con .login_main .main_tip .tip_right a:hover {
+  color: #f56600;
+}
+#banner .banner_con .login_main .login_other {
+  width: 348px;
+  height: 65px;
+  position: absolute;
+  top: 350px;
+  text-align: center;
+  margin-left: 31px;
+  padding-top: 30px;
+}
+#banner .banner_con .login_main .login_other .oth_type {
+  border: 0;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 10px;
+}
+#banner .banner_con .login_main .login_other .oth_text {
+  width: 84px;
+  height: 19px;
+  color: #bbb;
+  font-size: 14px;
+}
+#banner .banner_con .login_main .login_other .login_way {
+  width: 348px;
+  height: 33px;
+  text-align: center;
+  font-size: 14px;
+}
+#banner .banner_con .login_main .login_other .login_way a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 17px;
+}
+#banner .banner_con .login_main .login_other .login_way .iconfont {
+  font-size: 30px;
+}
+#bottom {
+  width: 100%;
+}
+#bottom .bottom_con {
+  width: 1423px;
+  height: 80px;
+  margin-top: 100px;
+  position: relative;
+}
+#bottom .bottom_con .btm_size {
+  text-align: center;
+  width: 1423px;
+  height: 19px;
+}
+#bottom .bottom_con li {
+  display: inline-block;
+  color: #757575;
+}
+#bottom .bottom_con li a {
+  display: inline-block;
+  padding: 0 10px;
+  color: #757575;
+  font-size: 14px;
+}
+#bottom .bottom_con p {
+  width: 1403px;
+  height: 24px;
+  padding: 10px;
+  text-align: center;
+  color: #757575;
+  font-size: 14px;
+}
+#bottom .bottom_con p img {
+  border: 0 none;
+  cursor: pointer;
+  display: inline;
+}

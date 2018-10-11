@@ -1,0 +1,38 @@
+@charset "utf-8";
+ul,li,ol{list-style: none;}
+a,u{text-decoration: none;}
+b,strong{font-weight:normal;}
+i,em{font-style: normal;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+img{border: 0;display: block;}
+input{outline:none;}
+h1,h2,h3,h4,h5,h6,p,ul,img,li,ol,table,dl,dt,dd,tr,td{margin:0;padding:0;}
+#top{width:100%;}
+#top img{width:100%;height:120px;margin:0 auto;}
+#nav{width:100%;background:#333;}
+#nav .nav-con{width:1226px;height:40px;margin:0 auto;}
+#nav .nav-general{height:40px;}
+.nav-general .nav-general-left,.nav-general-left li{float: left;}
+.nav-general .nav-general-right{float:right;}
+.nav-general .nav-general-right li{float: left;}
+.nav-general-left li,.nav-general-right li{height:12px;margin-top:14px;border-right:1px solid #3d3d3d;}
+.nav-general-left li a,.nav-general-right li a{font-size:12px;color:#97aac8;padding:0 7px;display: block;line-height:12px;}
+.nav-general-left li a:hover,.nav-general-right li a:hover{color:#fff;}
+.nav-general-left li:last-child,.nav-general-right li:last-child{border:0;}
+#nav .nav-main{height:100px;line-height:100px;}
+#nav p{float: left;margin:0 20px 0 24px;font-size:26px;color:#624bd9;}
+#nav .nav-miant{height:100px;float: left;}
+#nav .nav-miant li{float: left;margin-right:20px;}
+.nav-miant li a{font-size:14px;color:#302e2f;}
+.nav-miant li a:hover{color:#f00;}
+.nav-main img{width:55px;height:54px;margin-top:23px;float: left;}
+#nav .nav-main form{float:right;}
+.nav-main form input:first-child{width:243px;height:48px;border:1px solid #e0e0e0;}
+.nav-main form input:last-child{width:50px;height: 53px;border:1px solid #e0e0e0;background:#fff;border-left:0;}
+.nav-main form input:last-child:hover{background:#fb6809;}
+#nav .nav-con .nav-container{width:1228px;height:460px;background:pink;}
+#nav .nav-container .container-left{width:234px;height:460px;float:left;background:#475b5a;}
+.nav-container .container-left li{height:43px;line-height:43px;margin-left:29px;background:url('../images/hg13.jpg') no-repeat 183px 15px;}
+.nav-container .container-right img{width:994px;height:460px;}
+
+

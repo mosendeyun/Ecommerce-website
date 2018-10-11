@@ -1,0 +1,155 @@
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+}
+.wrapper .wrap {
+  padding-bottom: 80px;
+  width: 854px;
+  height: 559px;
+  margin: 0 auto;
+}
+.wrapper .wrap .layout {
+  width: 854px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.wrapper .wrap .layout .main {
+  padding-bottom: 30px;
+  width: 786px;
+  height: 519px;
+  padding: 34px 34px 0;
+  background: #fff;
+}
+.wrapper .wrap .layout .main .logo {
+  width: 786px;
+  height: 48px;
+  padding-bottom: 40px;
+}
+.wrapper .wrap .layout .main .logo a {
+  display: block;
+  width: 49px;
+  height: 48px;
+  margin: 0 auto;
+  cursor: default;
+  background: url('../images/hg2.jpg');
+}
+.wrapper .wrap .layout .main .main_title {
+  width: 786px;
+  height: 45px;
+  text-align: center;
+}
+.wrapper .wrap .layout .main .main_title h4 {
+  font-size: 30px;
+  color: #333;
+  line-height: 1.5;
+}
+.wrapper .wrap .layout .main .regbox {
+  width: 332px;
+  height: 306px;
+  padding: 30px 0;
+  line-height: 20px;
+  margin: 0 auto;
+}
+.wrapper .wrap .layout .main .regbox .phone_step1 {
+  width: 332px;
+}
+.wrapper .wrap .layout .main .regbox .phone_step1 h4 {
+  padding-bottom: 5px;
+  color: #333;
+  font-size: 14px;
+}
+.wrapper .wrap .layout .main .regbox .list_wrap {
+  width: 332px;
+  height: 42px;
+  padding-bottom: 15px;
+  position: relative;
+}
+.wrapper .wrap .layout .main .regbox .list_wrap .list_tite {
+  width: 332px;
+  height: 42px;
+}
+.wrapper .wrap .layout .main .regbox .list_wrap .list_tite .list_form {
+  cursor: pointer;
+}
+.wrapper .wrap .layout .main .regbox .list_wrap .list_tite .list_form p {
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #666;
+}
+.wrapper .wrap .layout .main .regbox .list_wrap .list_tite .list_form h4 {
+  color: #333;
+  font-size: 14px;
+}
+.wrapper .wrap .layout .main .regbox .list_wrap .list_tite .list_form input {
+  width: 348px;
+  height: 50px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 14px;
+  cursor: text;
+}
+.wrapper .wrap .layout .main .regbox .list_wrap .list_tite .list_form .sub {
+  background: #f56600;
+  width: 348px;
+  height: 50px;
+  cursor: pointer;
+  border: 0;
+}
+.wrapper .wrap .layout .main .privacy {
+  width: 786px;
+  height: 40px;
+  padding-top: 40px;
+  text-align: center;
+  margin-top: -60px;
+}
+.wrapper .wrap .layout .main .privacy .msg {
+  color: #9d9d9d;
+}
+.wrapper .wrap .layout .main .privacy .msg .privacy_con {
+  padding: 10px 0;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+}
+.wrapper .wrap .layout .main .privacy .msg .privacy_con a {
+  color: #333;
+  font-size: 14px;
+}
+#bottom {
+  width: 100%;
+}
+#bottom .bottom_con {
+  width: 1423px;
+  height: 80px;
+  margin-top: -60px;
+  position: relative;
+}
+#bottom .bottom_con .btm_size {
+  text-align: center;
+  width: 1423px;
+  height: 19px;
+}
+#bottom .bottom_con li {
+  display: inline-block;
+  color: #757575;
+}
+#bottom .bottom_con li a {
+  display: inline-block;
+  padding: 0 10px;
+  color: #757575;
+  font-size: 14px;
+}
+#bottom .bottom_con p {
+  width: 1403px;
+  height: 24px;
+  padding: 10px;
+  text-align: center;
+  color: #757575;
+  font-size: 14px;
+}
+#bottom .bottom_con p img {
+  border: 0 none;
+  cursor: pointer;
+  display: inline;
+}

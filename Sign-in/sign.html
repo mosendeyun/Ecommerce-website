@@ -5,8 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/sign.css">
 </head>
 <body>
-    
+    <div id="top">
+        <div class="top_con">
+            <div class="top_logo"></div>
+        </div>
+    </div>
+   
+    <div id="banner">
+        <div class="banner_con">
+            <div class="banner_bgt"></div>
+            <div class="login_main">
+                <div class="main_top">
+                    <div class="main_top_nav">
+                        <a href="#">账号登录</a>
+                        <span></span>
+                        <a href="#">扫码登录</a>
+                    </div>
+                </div>
+                <div class="main_tab">               
+                    <form class="login-form" onsubmit="return false" autocomplete="off">
+                        <input class="inp" name="username" type="text" required="required" placeholder="邮箱/手机号/小米ID"><br>
+                        <input class="inp" name="password" type="password" required="required" placeholder="密码"><br>
+                        <button class="sub" type="submit" name="login-btn">登录</button>
+                    </form>
+                </div>
+                <div class="main_tip">
+                    <span class="tip_left"> <a href="#">手机短信登录/注册</a></span>
+                    <div class="tip_right">
+                        <span> <a href="#">立即注册</a></span>
+                        <span>|</span>
+                        <span> <a href="#">忘记密码？</a></span>
+                    </div>
+                </div>
+                <div class="login_other">
+                    <fieldset class="oth_type">
+                        <legend class="oth_text">其他方式登录</legend>
+                    </fieldset>
+                    <div class="login_way">
+                        <a href="#"><i class="iconfont icon-zhifubao"></i></a>
+                        <a href="#"><i class="iconfont icon-zhifubao"></i></a>
+                        <a href="#"><i class="iconfont icon-zhifubao"></i></a>
+                        <a href="#"><i class="iconfont icon-zhifubao"></i></a>
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </div>
+    <div id="bottom">
+        <div class="bottom_con">
+            <div class="btm_size">
+                <ul>
+                    <li><a href="#">简体</a> |</li>
+                    <li><a href="#">简体</a> |</li>
+                    <li><a href="#">简体</a> |</li>
+                    <li><a href="#">简体</a> |</li>
+                    <li><a href="#">简体</a> |</li>
+                </ul>
+            </div>
+            <p>小米公司版权所有-京ICP备10046444- <img src="images/ghs.png" alt="">-京ICP证110507号</p>
+        </div>
+    </div>
+    <script src="js/ajax.js"></script>
+    <script src="js/login.js"></script>
+    <script>
+        login.init('.login-form');
+    </script>
 </body>
 </html>
