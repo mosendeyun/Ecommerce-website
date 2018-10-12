@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.0/css/swiper.min.css">
+    <link rel="stylesheet" href="css/shopCar.css">
+</head>
+<body>
+    <div id="top">
+        <div class="top_con">
+            <div class="top_log">
+                <a href="../home-page/hp1.html"></a>
+            </div>
+            <div class="top_car">
+                <h2>我的购物车</h2>
+                <p>温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</p>
+            </div>
+            <div class="top_info">
+                <a href="../Sign-in/sign.html">登录</a><span>|</span> <a href="../register/register.html">注册</a>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div class="main_con">
+            <div class="loader">
+
+            </div>
+            <div class="car_no">
+                <h2>您的购物车还是空的！</h2>
+                <p>登录后将显示您之前加入的商品</p>
+                <a href="../Sign-in/sign.html">立即登录</a>
+                <a href="../home-page/hp1.html">马上去购物</a>
+            </div>
+            <div class="car_box">
+
+            </div>
+        </div>
+    </div>
+    <div id="sale"></div>
+    <div id="bottom"></div>
+    <script src="js/jquery.js"></script>
+    <script>
+        $('#sale').load('comment.html #sale');
+        $('#bottom').load('comment.html #bottom');
+    </script>
+</body>
+</html>
