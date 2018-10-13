@@ -38,7 +38,7 @@ var login = (function(){
                 document.cookie = "token=" + data.data.token;
                 document.cookie = "user-id=" + data.data.id;
                 
-                location.href = '../home-page/hp.html';
+                location.href = '../home-page/hp1.html';
             } else {
                 alert(data.msg);
             }

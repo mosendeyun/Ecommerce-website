@@ -6,7 +6,9 @@
   height: 98px;
   margin: 0 auto;
 }
-#top .top_con .top_logo {
+#top .top_con .top_logo a {
+  display: inline-block;
+  height: 200px;
   width: 200px;
   height: 98px;
   background: url('../images/bj1.png');

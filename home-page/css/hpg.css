@@ -130,6 +130,15 @@
   height: 88px;
   padding-right: 15px;
 }
+#header_nav .nav_con .nav_center .center_con .nav_category .item_one {
+  background: url('../images/chongyang.webp') no-repeat center;
+  display: block;
+  width: 165px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: -25px;
+}
 #header_nav .nav_con .nav_center .center_con .nav_category .site_category {
   z-index: 1;
   position: absolute;
@@ -138,7 +147,6 @@
   width: 234px;
   height: 460px;
   font-size: 14px;
-  background: red;
 }
 #header_nav .nav_con .nav_center .center_con .nav_category .site_category .category_list {
   width: 234px;

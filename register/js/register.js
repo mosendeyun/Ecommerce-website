@@ -58,7 +58,7 @@ var register = (function(){
             if(data.code == 200) {
                 //   注册成功
                 alert('注册成功')
-                location.href = '../home-page/hp.html';
+                location.href = '../home-page/hp1.html';
              } else {
                 alert('用户名已存在')
              }
