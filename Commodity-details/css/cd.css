@@ -84,8 +84,7 @@
   width: 606px;
   height: 600px;
   float: left;
-  position: relative;
-  z-index: -1;
+  position: absolute;
 }
 #produce .produce_con .pd_left .pd_swript {
   width: 560px;

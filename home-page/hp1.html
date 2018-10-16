@@ -57,12 +57,12 @@
                                         <a class="title" href="#">手机 电话卡<i class="iconfont icon-jiantouyou"></i></a>
                                         <div class="category_child">
                                             <ul class="child_list">
-                                                <li>
+                                                <!-- <li>
                                                     <a class="link" href="#">
                                                         <img src="images/qingchun-80.png" alt="">
                                                         <span class="text">小米8 青春版</span>
                                                     </a>
-                                                </li>
+                                                </li> -->
                                                  <li>
                                                     <a class="link" href="#">
                                                         <img src="images/qingchun-80.png" alt="">
@@ -1030,6 +1030,8 @@
             <div class="nav_right">
                 <form class="right_form" action="">
                     <input type="search" name="keyword" autocomplete="off">
+                    <ul class="search_list">
+                    </ul>
                     <input type="submit" class="iconfont icon-sousuo" value="">
                     <i class="iconfont icon-sousuo"></i>
                     <div class="input_word">
@@ -1040,6 +1042,11 @@
             </div>
         </div>
     </div>
+    <script src="js/jsonp.js"></script>
+    <script src="js/hp.js"></script>
+    <script>
+           baiduInput.init('.nav_right');
+    </script>    
     <div id="banner">
         <div class="banner_con">
             <div class="banner_hero">
@@ -2125,5 +2132,8 @@
             </div>
         </div>
     </div>
+    <script>
+        scroll.init('.go_top')
+    </script>
 </body>
 </html>

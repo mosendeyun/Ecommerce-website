@@ -236,6 +236,25 @@
   font-size: 14px;
   line-height: 48px;
 }
+#header_nav .nav_con .nav_right .right_form .search_list {
+  width: 221px;
+  border: 1px solid#e0e0e0;
+  position: absolute;
+  top: 48px;
+  right: 51px;
+  z-index: 1;
+  background: #fff;
+  display: none;
+}
+#header_nav .nav_con .nav_right .right_form .search_list li {
+  width: 223px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+}
+#header_nav .nav_con .nav_right .right_form .search_list li:hover {
+  background: #eee;
+}
 #header_nav .nav_con .nav_right .right_form input:nth-of-type(2) {
   position: absolute;
   right: 0;

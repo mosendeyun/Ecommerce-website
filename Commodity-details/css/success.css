@@ -1,0 +1,68 @@
+#main {
+  width: 100%;
+}
+#main .main_con {
+  margin-bottom: 26px;
+  padding: 0 0 28px 0;
+  height: 68px;
+  border-bottom: 1px solid #e0e0e0;
+  width: 1226px;
+  margin: 0 auto;
+}
+#main .main_con .suc {
+  float: left;
+  width: 1226px;
+  height: 64px;
+}
+#main .main_con .suc .suc_img {
+  float: left;
+  width: 64px;
+  height: 64px;
+}
+#main .main_con .suc .suc_img img {
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+#main .main_con .suc_info {
+  margin-left: 20px;
+  float: left;
+  width: 404px;
+  height: 60px;
+}
+#main .main_con .suc_info h3 {
+  color: #424242;
+  font-size: 24px;
+  margin-top: 3px;
+}
+#main .main_con .suc_info span {
+  margin-right: 15px;
+  font-size: 14px;
+  color: #757575;
+}
+#main .main_con .suc_actions {
+  float: right;
+  width: 392px;
+  height: 45px;
+}
+#main .main_con .suc_actions .btn {
+  width: 180px;
+  height: 38px;
+  margin-top: 5px;
+  display: inline-block;
+  border: 1px solid #b0b0b0;
+  font-size: 14px;
+  line-height: 38px;
+  text-align: center;
+  cursor: pointer;
+}
+#main .main_con .suc_actions .btn_pre {
+  border-color: #b0b0b0;
+  color: #757575;
+}
+#main .main_con .suc_actions .btn_net {
+  background: #ff6700;
+  border-color: #ff6700;
+  color: #fff;
+  margin-left: 12px;
+}
