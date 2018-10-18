@@ -39,7 +39,7 @@
             <div class="car_box">
                 <div class="car_list">
                     <div class="list_head">
-                        <div class="col col_check"><i class="iconfont icon-anonymous-iconfont"></i>全选</div>
+                        <div class="col col_check"><i class="check">√</i>全选</div>
                         <div class="col col_img">&nbsp;</div>
                         <div class="col col_name">商品名称</div>
                         <div class="col col_price">单价</div>
@@ -51,10 +51,10 @@
                         <div class="body_box">
                             <div class="box_top">
                                 <div class="top_row">
-                                    <div class="col col_check"><i class="iconfont icon-anonymous-iconfont"></i></div>
+                                    <div class="col col_check"><i class="check">√</i></div>
                                     <div class="col col_img"><a href="../Commodity-details/cd.html"> <img src="images/car1.jpg" alt=""></a></div>
                                     <div class="col col_name"> <a href="../Commodity-details/cd.html">小米8 SE 全网通版 4GB内存 64GB 亮红</a></div>
-                                    <div class="col col_price"> 1699元 </div>
+                                    <div class="col col_price">1699元</div>
                                     <div class="col col_num col_btn">
                                         <div class="num_con">
                                             <a class="minus" href="javascript:void(0)">-</a>
@@ -62,10 +62,29 @@
                                             <a class="plus" href="javascript:void(0)">+</a>
                                         </div>                                      
                                     </div>
-                                    <div class="col col_total"> 1699元 </div>
+                                    <div class="col col_total total">1699元</div>
                                     <div class="col col_action">
                                         <a class="btn" href="javascript:void(0)">
-                                            <i class="iconfont icon-guanbi"></i>
+                                            <i class="iconfont del icon-guanbi"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="top_row">
+                                    <div class="col col_check"><i class="check">√</i></div>
+                                    <div class="col col_img"><a href="../Commodity-details/cd.html"> <img src="images/car1.jpg" alt=""></a></div>
+                                    <div class="col col_name"> <a href="../Commodity-details/cd.html">小米8 SE 全网通版 4GB内存 64GB 亮红</a></div>
+                                    <div class="col col_price">1699元</div>
+                                    <div class="col col_num col_btn">
+                                        <div class="num_con">
+                                            <a class="minus" href="javascript:void(0)">-</a>
+                                            <input class="shop-count" type="number" value="1">
+                                            <a class="plus" href="javascript:void(0)">+</a>
+                                        </div>                                      
+                                    </div>
+                                    <div class="col col_total total">1699元</div>
+                                    <div class="col col_action">
+                                        <a class="btn" href="javascript:void(0)">
+                                            <i class="iconfont del icon-guanbi"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -111,6 +130,25 @@
                                     <a href="#">了解保障服务 ></a>
                                 </div>
                             </div>
+                            <!-- <div class="car_bar">
+                                <div class="bar_left">
+                                    <a href="../home-page/hp1.html">继续购物</a>
+                                    <span>共 
+                                        <i>3</i> 件商品，已选择 
+                                        <i>3</i> 件
+                                    </span>
+                                    <span>                                       
+                                        ，还需 <i>0.00</i> 元即可免邮费  
+                                        <a href="../home-page/hp1.html">立即凑单</a>
+                                    </span>
+                                </div>
+                                <span>活动优惠：减<i>0</i>元</span>
+                                <span> 合计<em>1778</em>元</span>
+                                <a href="#">去结算</a>
+                                <div>
+                                    请勾选需要结算的商品
+                                </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -210,10 +248,11 @@
     </div>
     <div id="sale"></div>
     <div id="bottom"></div>
+    <!-- <script src="js/ajax2.0.0.js"></script> -->
+    <script src="js/shopCar.js"></script>
     <script src="js/jquery.js"></script>
-    <!-- <script src="js/ajax2.0.0.js"></script>
-    <script src="js/shopCar.js"></script> -->
     <script>
+        changeNum.init()
         $('#sale').load('comment.html #sale');
         $('#bottom').load('comment.html #bottom');
         // shopList.init('.haha');

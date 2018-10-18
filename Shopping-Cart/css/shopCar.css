@@ -165,11 +165,32 @@
   height: 70px;
   line-height: 70px;
 }
-#main .main_con .car_box .car_list .col_check .iconfont {
-  color: #ff6700;
+#main .main_con .car_box .car_list .col_check .check {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ccc;
+  color: #fff;
+  cursor: pointer;
   margin: 0 15px 0 24px;
   font-size: 20px;
   text-align: center;
+  line-height: 18px;
+  vertical-align: middle;
+}
+#main .main_con .car_box .car_list .col_check .ifont {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ff6700;
+  background: #ff6700;
+  color: #fff;
+  margin: 0 15px 0 24px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 18px;
+  vertical-align: middle;
+  cursor: pointer;
 }
 #main .main_con .car_box .car_list .col_img {
   width: 120px;
@@ -212,16 +233,16 @@
   height: 445pxpx;
 }
 #main .main_con .car_box .car_list .list_body .body_box {
-  padding: 15px 26px 15px 0;
-  border-top: 1px solid #e0e0e0;
+  padding: 0 26px 15px 0;
 }
 #main .main_con .car_box .car_list .list_body .body_box .box_top {
   width: 1200px;
-  height: 86px;
+  min-height: 86px;
 }
 #main .main_con .car_box .car_list .list_body .body_box .box_top .top_row {
   width: 1200px;
   height: 86px;
+  border-top: 1px solid #e0e0e0;
 }
 #main .main_con .car_box .car_list .list_body .body_box .box_top .top_row .col_num {
   width: 150px;
